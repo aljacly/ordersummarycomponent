@@ -21,11 +21,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 
 
 }
 
 .order-component {
+    /*component with hero img and order component*/
     width: 400px;
     height: 200px;
     margin-left: auto;
@@ -33,29 +35,118 @@ body {
 }
 
 .order-component img {
+    /*hero img */
     width: 400px;
     height: 200px;
     border-radius: 1rem;
-    border-bottom: 20rem solid white;
+    border-bottom: 25rem solid white;
 }
 
 .summary {
+    /*component with text inside*/
     width: 400px;
     font-family: 'Red Hat Display', sans-serif;
-    text-align: center;
+}
+
+.summary img {
+    /*music icon*/
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+    margin-left: 2rem;
 }
 
 .title {
+    /*order summary title*/
     padding-top: 1rem;
     font-weight: 900;
-    font-size: large;
+    font-size: larger;
     color: hsl(223, 47%, 23%);
+    text-align: center;
 }
 
 .caption {
+    /*main text under title */
     padding-top: 1rem;
     font-weight: 500;
     color: gray;
+    text-align: center;
 }
 
-.plan {}
+.plan {
+    /*annual plant text*/
+    background-color: blue;
+    padding-top: 2rem;
+    font-weight: 700;
+    margin-left: 6rem;
+
+}
+
+
+.year {
+    /*$59.99 text*/
+    margin-left: 0.1rem;
+    font-weight: 500;
+    color: grey;
+
+}
+
+.change {
+    /*change text*/
+    margin-top: -3rem;
+    font-weight: 500;
+    margin-left: 4rem;
+}
+
+button.payment {
+    /*payment button*/
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 1rem;
+    width: 300px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+    box-shadow: none;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 2rem;
+
+
+}
+
+button.cancel {
+    /*cancel button*/
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    width: 300px;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    border-radius: 1rem;
+    box-shadow: none;
+    border: none;
+    margin-left: 3rem;
+
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button.payment:hover {
+    background-color: rgb(118, 108, 241);
+    cursor: pointer;
+}
+
+button.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.attribution {
+    padding-top: 13rem;
+}
