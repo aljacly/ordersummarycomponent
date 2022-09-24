@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://aljacly.github.io/ordersummarycomponent/)
 
 ## My process
 I changed the body to bg image of the design, and centered the img using borders. Added the text on top.
